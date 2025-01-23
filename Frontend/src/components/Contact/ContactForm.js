@@ -11,7 +11,7 @@ const ContactForm = () => {
     const formData = new FormData(event.target);
     
     try {
-      const response = await fetch('http://127.0.0.1:8000/api/contact-me/', {
+      const response = await fetch('https://portfolio-jowj.onrender.com/api/contact-me/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
