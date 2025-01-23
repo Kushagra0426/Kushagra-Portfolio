@@ -4,10 +4,11 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiSlack,
-  SiVercel,
   SiWindows11,
   SiLinux,
   SiMicrosoftteams,
+  SiDocker,
+  SiAmazonaws
 } from "react-icons/si";
 import {
   DiGit,
@@ -35,10 +36,13 @@ function Toolstack() {
         <SiMicrosoftteams />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiAmazonaws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
       </Col>
     </Row>
   );
