@@ -14,9 +14,8 @@ function Contact() {
                         React Out to <strong className="purple">Me</strong>
                     </h1>
                     <Col
-                        md={6}
+                        md={7}
                         style={{
-                            marginLeft: "50px",
                             justifyContent: "center",
                             paddingTop: "20px",
                             paddingBottom: "50px",
