@@ -159,3 +159,21 @@ CONTACT_ME_EMAIL_TEMPLATE = """
     Please reach out to the user via email provided to discuss the request. Thank you.
 </p>
 """
+
+CONTACT_ME_EMAIL_GREENMINDAI_TEMPLATE = """
+<h3>Contact Request</h3>
+<p>
+    A customer with the following details has sent us a contact request.
+    <br><br>
+    Name: {{ name }}
+    <br>
+    Email: {{ email }}
+    <br>
+    Message: {{ message }}
+    <br/><br/>
+    Please reach out to the user via email provided to discuss the request. 
+    <br/>
+    Thank you
+    Team GreenMindAI
+</p>
+"""
