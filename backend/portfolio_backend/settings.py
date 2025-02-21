@@ -172,8 +172,9 @@ CONTACT_ME_EMAIL_GREENMINDAI_TEMPLATE = """
     Message: {{ message }}
     <br/><br/>
     Please reach out to the user via email provided to discuss the request. 
-    <br/>
+    <br/><br/>
     Thank you
+    <br/>
     Team GreenMindAI
 </p>
 """
