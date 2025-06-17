@@ -8,7 +8,8 @@ import {
   SiLinux,
   SiMicrosoftteams,
   SiDocker,
-  SiAmazonaws
+  SiAmazonaws,
+  SiRedis
 } from "react-icons/si";
 import {
   DiGit,
@@ -43,6 +44,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedis />
       </Col>
     </Row>
   );

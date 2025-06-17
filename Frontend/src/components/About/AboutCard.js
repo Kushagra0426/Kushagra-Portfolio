@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Kushagra Saxena </span>
             from <span className="purple"> Uttar Pradesh, India.</span>
             <br />
-            I am currently working as a Software Engineer at Itmtb Technologies.
+            I am currently working as a Backend Engineer at Zoca.
             <br />
             I have completed my Bachelors (B.Tech) in CSE from<br /> 
             G.L. Bajaj Institute of Technology & Management, Greater Noida.

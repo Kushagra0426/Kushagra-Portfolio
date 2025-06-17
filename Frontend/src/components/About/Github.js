@@ -1,6 +1,7 @@
 import React from "react";
-import LeetCodeCalendar from 'leetcode-calendar';
-import { Row } from "react-bootstrap";
+import GitHubCalendar from "react-github-calendar";
+import { Row, Col } from "react-bootstrap";
+import { SiGithub } from "react-icons/si";
 
 function Github() {
   const exampleTheme = {
@@ -22,15 +23,16 @@ function Github() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-        Days I <strong className="purple">LeetCode</strong>
+        Days I <strong className="purple">Commit</strong> <SiGithub />
       </h1>
-      <LeetCodeCalendar
-        username="kushagra_coder"
+      <GitHubCalendar
+        username="kushagra0426"
         blockSize={15}
         blockMargin={5}
         fontSize={16}
-        theme={exampleTheme} // Optional: A custom theme object to style the calendar
-        style={{ maxWidth: '1100px' }} // Optional: Inline styles for the calendar container
+        color="#c084f5"
+        // theme={exampleTheme} // Optional: A custom theme object to style the calendar
+        // style={{ maxWidth: '1100px' }} // Optional: Inline styles for the calendar container
       />
     </Row>
   );
